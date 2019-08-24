@@ -5,7 +5,7 @@ In this Project:
 When you press True Password, LED will turn on
 Else, the LCD print again False and you can try again!
 
-instead of LED, you can put a Relay and with some changes, you can bulid a Lock and Open with Password!
+instead of LED, you can put a Relay and with some changes, you can bulid a Lock that Open with Password!
 
 
 If you have any question, feel free...
