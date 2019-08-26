@@ -2,7 +2,6 @@
 #E-mail: mjnajafi@yahoo.com
 #Linkedin: https://www.linkedin.com/in/mjnajafi/
 
-#This file is for testing Keypad. When every key is pressed, will print in cmd.
 
 #import library
 
