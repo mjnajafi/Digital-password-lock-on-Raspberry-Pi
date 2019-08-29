@@ -1,9 +1,9 @@
-#Mohammad Javad NajafiRad
+#Written By: Mohammad Javad NajafiRad
 #E-mail: mjnajafi@yahoo.com
 #Linkedin: https://www.linkedin.com/in/mjnajafi/
 
 
-#import library
+#Import Library
 
 import time                         #import delay time
 from pad4pi import rpi_gpio         #connect to keypad
@@ -15,7 +15,7 @@ GPIO.setwarnings(False)             #disable warnings
 GPIO.setup(14,GPIO.OUT)             #config LED as output
 GPIO.output(14,GPIO.LOW)            #set low for LED
 
-#define Pins
+#Define Pins
 
 print ("run...")
 
@@ -93,7 +93,7 @@ def printKey(key):
             h=""
 
             
-#main loop
+#Main Loop
             
 while True:                                    #unlimited loop
     keypad.registerKeyPressHandler(printKey)   #get key
