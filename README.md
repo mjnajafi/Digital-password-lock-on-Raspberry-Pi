@@ -2,7 +2,7 @@
 Raspberry Pi project using Keypad &amp; LCD 
 
 In this Project:
-When you press True Password, LED will turn on
+When you press True Password, LED will turn on.
 otherwise, If you press False Password, LCD print "False Password" and you can try again!
 
 instead of LED, with some changes; you can control a lockdoor which only open with true password!
