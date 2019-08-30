@@ -1,14 +1,14 @@
 # Digital-password-lock-on-Raspberry-Pi
-A Raspberry Pi project using Keypad &amp; LCD 
+Raspberry Pi project using Keypad &amp; LCD 
 
 In this Project:
 When you press True Password, LED will turn on
-Else, the LCD print again False and you can try again!
+otherwise, If you press False Password, LCD print "False Password" and you can try again!
 
-instead of LED, you can put a Relay and with some changes, you can bulid a Lock that Open with Password!
+instead of LED, with some changes; you can control a lockdoor which only open with true password!
 
 
-If you have any question, feel free...
+If you have any question, feel free and contact me!
 
 
 Good Luck!
