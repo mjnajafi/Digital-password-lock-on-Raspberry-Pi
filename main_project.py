@@ -39,10 +39,9 @@ factory=rpi_gpio.KeypadFactory()               #set deafult Keypad
 keypad=factory.create_keypad(keypad=KEYPAD,
                              row_pins=ROW_PINS, col_pins=COL_PINS)
 
-
- 
 time.sleep(1)                                 #delay at beginning
-lcd.cursor_pos=(0,0)   
+
+lcd.cursor_pos=(0,0)  
 with cleared(lcd):
         lcd.write_string(u'')                 #clear LCD at beginnig
 lcd.cursor_pos=(1,0)   
@@ -56,7 +55,7 @@ time.sleep(2)                                 #delay time
 lcd.cursor_pos=(0,0)                          #define start point column=0 row=0
 lcd.write_string('Insert Password')           #sample text
                           
-lcd.cursor_pos=(1,0)
+lcd.cursor_pos=(1,0)                          #define start point column=0 row=1
 
 password="1234"                               #default password
 i=0
