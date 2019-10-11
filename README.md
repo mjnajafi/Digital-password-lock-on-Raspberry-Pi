@@ -1,5 +1,5 @@
 # Digital-password-lock-on-Raspberry-Pi
-Raspberry Pi project using Keypad &amp; LCD 
+Raspberry Pi project: using Keypad &amp; LCD 
 
 In this Project:
 When you press True Password, LED will turn on.
